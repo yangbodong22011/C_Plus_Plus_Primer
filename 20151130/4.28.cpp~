@@ -1,0 +1,24 @@
+/*************************************************************************
+	> File Name: 4.28.cpp
+	> Author: YangBodong
+	> Mail: ybd@xiyoulinux.org
+	> Created Time: Mon 30 Nov 2015 16:52:16 CST
+ ************************************************************************/
+
+#include<iostream>
+
+using std::cout;
+using std::cin;
+using std::endl;
+
+int main(int argc,char *argv[])
+{
+    char *p;
+    cout << sizeof(char) << endl;
+    cout << sizeof(int) << endl;
+    cout << sizeof(short) << endl;
+    cout << sizeof(float) << endl;
+    cout << sizeof(double) << endl;
+    cout << sizeof(p) << endl;
+    return 0;
+}
